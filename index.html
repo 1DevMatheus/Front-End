@@ -1,47 +1,171 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Home</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    <link rel="stylesheet" href="./assets/style/estilo.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícias cidade - seu site de notícias</title>
+    <link rel="stylesheet" href="./assets/style.css">
 </head>
-<body>
-        <div>
-         <nav >
-        
-                <li class="menu"><a style="color: rgb(253, 96, 128);" class="menu" href="index.html">Home</a></li>
-                <li class="menu"><a class="menu" href="contato.html">Contatos</a></li>
-        
-         </nav>
+<body class="home">
+    <!-- Inicio do container -->
+    <div id="container">
+        <!-- começo do topo -->
+        <div id="topo">
+            <h1 class="logo">Notícias Cidade</h1>
+            <ul id="navegacao">
+                <li  class="primeiro">
+                    <a id="home" href="index.html">Home</a></li>
+                <li >
+                    <a id="brasil" href="brasil.html">Brasl</a></li>
+                <li >
+                    <a id="internacional" href="internacional.html">Internacional</a></li>
+                <li >
+                    <a id="economia" href="economia.html">Economia</a></li>
+                <li >
+                    <a id="saude" href="saude.html">Saúde</a></li>
+                <li >
+                    <a id="ciencia" href="ciencia.html">Ciência</a></li>
+                <li >
+                    <a id="fotos" href="fotos.html">Fotos</a></li>
+
+            </ul>
+        </div><!-- final do topo -->
+        <!-- inicio dos conteudos -->
+        <div id="conteudo">
+            
+            <div id="primario">
+                <div class="caixa">
+                    <h2>Destaques</h2>
+                    <div class="caixa-conteudo">
+                       <h3>Nova legislação</h3>
+                       <img class="imagem-principal" src="./assets/img/taxi.jpg" alt="Imagem sobre taxistas" width="100%">
+                        <p><strong>Lorem ipsum</strong>  dolor sit, amet consectetur adipisicing elit. Rerum, nesciunt eveniet dolore sunt repellat tenetur ab, alias.</p>
+                        <a href="">Leia mais..</a>
+                    </div>
+                </div>
+                <div class="caixa">
+                    <h2>Mundo</h2>
+                    <div class="caixa-conteudo">
+                        <ul id="lista-noticias">
+                            <li>
+                                <a href="">
+                                    <img src="./assets/img/tecnologia.jpg" alt="imagem sobre noticias referentes a tecnologia" width="80">
+                                    <h3>Novas tecnologias</h3>
+                                    <p>Lorem ipsum dolor sit adipisicing elit.</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="./assets/img/portugal.jpg" alt="imagem sobre noticias referentes a tecnologia" width="80">
+                                    <h3>Abusos em Portugal</h3>
+                                    <p>Lorem ipsum dolor sit adipisicing elit.</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="./assets/img/messi.png" alt="imagem sobre noticias referentes a tecnologia" width="80">
+                                    <h3>A Realização de Messi</h3>
+                                    <p>Lorem ipsum dolor sit adipisicing elit.</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="./assets/img/daniel alves.png" alt="imagem sobre noticias referentes a tecnologia" width="80">
+                                    <h3>Caso Daniel Alves</h3>
+                                    <p>Lorem ipsum dolor sit adipisicing elit.</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- caixa secundaria -->
+            <div id="secundario">
+                <div class="caixa">
+                    <H2>Ultimas no Brasil</H2>
+                    <div class="caixa-conteudo">
+                        <h3>Reajuste salarial no brasil</h3>
+                        <img class="imagem-principal" src="./assets/img/dinheiro.jpeg" alt="">
+                        <h4>Ultimas noticias apos o anuncio do reajuste salarial no Brasil.</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut </p>
+                        <a href="">Leia mais</a>
+                    </div>
+                </div>
+                <div class="caixa">
+                    <h2>Notícias recents</h2>
+                    <div class="caixa-conteudo">
+                        <ul  id="lista-noticias">
+                            <li>
+                                <a href="">
+                                    <img src="./assets/img/taxi.jpg" alt="imagem sobre noticias referentes a tecnologia" width="80">
+                                    <h3>Cidade</h3>
+                                    <p>Lorem ipsum dolor sit adipisicing elit.</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="./assets/img/dinheiro.jpeg" alt="imagem sobre noticias referentes a tecnologia" width="80">
+                                    <h3>Economia</h3>
+                                    <p>Lorem ipsum dolor sit adipisicing elit.</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="./assets/img/cometa.jpg" alt="imagem sobre noticias referentes a tecnologia" width="80">
+                                    <h3>Fotos incrivel</h3>
+                                    <p>Lorem ipsum dolor sit adipisicing elit.</p>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- inicio da lateral -->
+            <div id="lateral">
+                <div class="caixa">
+                    <h2>Entrevistas</h2>
+                    <div class="caixa-conteudo">
+                       <ul>
+                        <li><a href="">André Vasco</a></li>
+                        <li><a href="">Neymar Jr.</a></li>
+                        <li><a href="">Messi</a></li>
+                        <li><a href="">Xavi Alonso</a></li>
+                        <li><a href="">Luciano Hulk</a></li>
+                        <li><a href="">Menor Du Chapa</a></li>
+                        <li><a href="">Marechal Da Rima</a></li>
+                        <li><a href="">ADL</a></li>
+                       </ul> 
+                    </div>
+                </div>
+                <div class="caixa">
+                    <h2>Newsletter</h2>
+                        <div class="caixa-conteudo">
+                            <div>
+                              <form>
+                                <label for="E-mail">Email:</label>
+                                <input type="text" name="E-mai" id="E-mail" placeholder="Digite seu e-mail">
+                              </form>  
+                            </div>
+                            <div>
+                                <input class="submit" type="submit" value="Cadastre-se">
+                            </div>    
+                        </div>
+                    </div>
+            </div><!--Final da lateral-->
+        </div>  <!-- final dos conteudo -->
+
+
+    </div> <!--FIM DO CONTAINER-->
+
+
+
+    <div id="container-radape" style="clear: both;">
+        <div id="rodape">
+            &copy; Copyright 2000 - 2023 Notícias Cidade
         </div>
-<hr>
-
-<div class="texto-principal mg-50">
-    <div ..texto-principal>
-        <h1>Texte generico lorem ipsum</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo volutpat purus, in aliquet nibh bibendum eu. Aenean sed dapibus ipsum.<p> Suspendisse porta eget tellus vel euismod. In consequat vitae ligula non tincidunt. <p> Aenean orci metus, eleifend vitae tincidunt non, bibendum quis urna. Vestibulum tristique sapien in ligula accumsan, ut consequat risus finibus. Vivamus quam libero, facilisis id consequat et, consectetur ut ante. Suspendisse potenti. Nunc imperdiet fringilla eros non accumsan. Sed commodo cursus felis. Etiam nec leo quis est ullamcorper auctor pellentesque et lectus. Integer eu felis nec mi bibendum sollicitudin.
-
-            Nullam fringilla semper ipsum eu tincidunt. Etiam consequat commodo risus, at viverra lorem dictum eu. Sed efficitur et sapien et tempus <p>  . Ut auctor, turpis vel luctus commodo, mauris orci vulputate magna, ut euismod ligula est eu massa. Etiam a nisl sed purus pretium consectetur. <p> Aenean pulvinar dui turpis, ut eleifend nisi dictum non. Quisque ac molestie arcu.
-            
-            Nunc ligula augue, iaculis vitae enim ac, iaculis maximus ipsum <p> . Vivamus porta fermentum faucibus. Etiam dignissim mattis pulvinar. <p> In id turpis ac nisi blandit suscipit. Maecenas quis quam felis. Sed aliquet neque faucibus luctus blandit. Fusce neque magna, interdum ac ligula id, imperdiet pretium enim <p> . Ut dignissim feugiat mauris, ut condimentum leo. Integer et mauris tempor, tempor massa tincidunt, imperdiet turpis. Etiam blandit mattis cursus. Sed porttitor quam ac felis mattis egestas. Phasellus consequat maximus lorem, dignissim pulvinar ligula semper in.
-            
-            Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean ullamcorper felis sit amet porttitor ultrices. Sed augue tortor, lacinia id mi ut, ultrices porttitor orci. In semper rhoncus convallis. Sed purus neque, pretium sed arcu et, fermentum aliquam leo. Cras posuere, odio id porta vehicula, odio risus ultrices tortor, at dignissim orci lectus id sapien. Suspendisse potenti. Curabitur at nibh in quam condimentum mattis vitae ut eros. Duis porta dui at est gravida porta. Mauris vel convallis sapien. Integer in malesuada libero. Vestibulum lacinia pretium arcu, quis feugiat sapien elementum sed.</p>
     </div>
-            <hr>
-    
-    <div>
-        <img style="height: 20%;margin: 0px 80px;" src="assets/img/luffy.jpg" alt="One Piece AM">
-        <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/K4MBd4sPi6w?controls=0&amp;start=4" title="One Piece AMV" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </div>
-</div>
-    <div>
-        <footer>
-            Todos os direitos reservados @
-        </footer>
-    </div>
-
 </body>
-
 </html>
